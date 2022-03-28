@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Custom Main CSS -->
+        <link rel="stylesheet" href="../css/acerca-styles.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/images/Favicon-pokeball.ico" type="image/x-icon">
+        <title>Pokedex - Acerca de</title>
+    </head>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid px-5 px-sm-5 px-md-5">
+                <a class="navbar-brand" href="/index.html">Pokedex</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link navLinkOne" href="/index.html">Pokedex</a>
+                        </li>
+                        <li class="nav-item px-md-0 px-lg-5 px-xl-5 px-xxl-5">
+                            <a class="nav-link active" aria-current="page" href="/html/acerca-de.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/como-funciona.html">Cómo funciona</a>
+                        </li>
+                    </ul>0
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <!-- Portrait -->
+        <div class="videoContainer">
+            <video autoplay muted loop id="myVideo">
+                <source src="/videos/portrait-8bit.m4v" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Main -->
+        <div class="container-fluid p-0">
+            <div class="infoContainer d-flex flex-wrap justify-content-center">
+                <div class="col-12">
+                    <h3>Acerca de este sitio<img src="/images/001-Bulbasaur-icon.png"
+                            alt="pokedex marco antonio sanchez bulbasaur icono"> <br></h3>
+                    <p class="aboutDesc">
+                        Este sitio web se realizo como práctica de la 4ta semana en el curso de Launch X
+                        de Innovacción Virtual. Se uso el IDE Microsoft Visual Studio Code, HTML 5, CSS3,
+                        JavaScript 2022 y Bootstrap 5. <br>
+                        En esta práctica en particular se implemento el uso de consultas a una API (pokeAPI)
+                        para obtener la información y mostrar la imagen del pokemon buscado,
+                        un sistema de enciclopedia que hace alusión al de un pokedex como en la serie original
+                        y video-juegos de esta saga legendaría tan popular.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h3>Su creador<img src="/images/004-Charmander-icon.png"
+                            alt="pokedex marco antonio sanchez charmander icono"> <br></h3>
+                    <p class="aboutDesc">
+                        Hola! <br>
+                        Me llamo Marco Antonio Sánchez y actualmente estoy estudiando como desarrollador Jr.
+                        para en un futuro consolidarme como Full stack. Vivo en la ciudad de México,
+                        tengo 27 años de edad, me gusta la música rap y salir a patinar en mi skateboard.
+                        <br>
+                        Espero este sitio sea de tu agrado y gracias por tu visita. <br>
+                        P.D. Atrapalos a todos!
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h3>Contacto<img src="/images/007-Squirtle-icon.png"
+                            alt="pokedex marco antonio sanchez squirtle icono"> <br></h3>
+                    <input class="w-100" type="text" name="nombre" id="nombre" placeholder="tu nombre">
+                    <br>
+                    <input class="w-100 my-3" type="email" name="email" id="email" placeholder="tu correo">
+                    <textarea name="mensaje" id="mensaje" cols="63" rows="5" placeholder="Tu mensaje"></textarea>
+                    <input class="w-100" type="button" value="enviar">
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <div class="footerBox col-12 col-md-5 col-xl-3 col-xxl-2">
+                <h2 class="footerSubtitle">Pokedex 2022</h2>
+                <p class="footerDesc">
+                    Proyecto para Launch X. <br>
+                    Práctica 4: Controlando el vuelo. <br>
+                    Integrando JavaScript (API) <br>
+                    <a class="footerLink" href="https://pokeapi.co/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-code-slash" viewBox="0 0 16 16">
+                            <path
+                                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                        </svg>
+                        pokeapi.co
+                    </a>
+                </p>
+            </div>
+            <div class="footerBox col-12 col-md-5 col-xl-3 col-xxl-2">
+                <h2 class="footerSubtitle">Marco A. Sánchez</h2>
+                <p class="footerDesc">
+                    Usando HTML5, CSS3, JavaScript y Bootstrap <br>
+                    <a class="footerLink" href="#">Portafolio</a> <br>
+                    <a class="footerLink" href="https://github.com/MarcoAntonioSanchez" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        Github
+                    </a>, <a class="footerLink" href="https://www.linkedin.com/in/marco-a-sanchez/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                        LinkedIn
+                    </a>, <a class="footerLink" href="https://www.facebook.com/RavenDMilosh/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                        Facebook
+                    </a> <br>
+                    <a class="footerLink" href="https://codepen.io/Marco-Sanchez" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-box" viewBox="0 0 16 16">
+                            <path
+                                d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                        </svg>
+                        Codepen
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- Custom Main JavaScript -->
+        <script src="/js/app.js"></script>
+        <!-- Bootstrap JavaScript Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </footer>
+
+</html>
